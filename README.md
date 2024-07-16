@@ -96,7 +96,7 @@ Replace '[License Name]' and '[Your Name]' with the appropriate license and your
 | <a name="input_edge_zone"></a> [edge\_zone](#input\_edge\_zone) | (Optional) Specifies the Edge Zone within the Azure Region where this Virtual Network should exist. Changing this forces a new Virtual Network to be created. | `string` | `null` | no |
 | <a name="input_enable"></a> [enable](#input\_enable) | Flag to control the module creation | `bool` | `true` | no |
 | <a name="input_enable_ddos_pp"></a> [enable\_ddos\_pp](#input\_enable\_ddos\_pp) | Flag to control the resource creation | `bool` | `false` | no |
-| <a name="input_enable_network_watcher"></a> [enable\_network_watcher](#input\_enable\_network_watcher) | Flag to control creation of network watcher. | `bool` | `false` | no |
+| <a name="input_label_order"></a> [label\_order](#input\_label\_order) | Label order, e.g. `name`,`application`. | `list(any)` | <pre>[<br>  "name",<br>  "environment"<br>]</pre> | no |
 | <a name="input_environment"></a> [environment](#input\_environment) | Environment (e.g. `prod`, `dev`, `staging`). | `string` | `""` | no |
 | <a name="input_existing_ddos_pp"></a> [existing\_ddos\_pp](#input\_existing\_ddos\_pp) | ID of an existing DDOPS plan defined in the same subscription | `string` | `null` | no |
 | <a name="input_flow_timeout_in_minutes"></a> [flow\_timeout\_in\_minutes](#input\_flow\_timeout\_in\_minutes) | The flow timeout in minutes for the Virtual Network, which is used to enable connection tracking for intra-VM flows. Possible values are between 4 and 30 minutes. | `number` | `10` | no |
