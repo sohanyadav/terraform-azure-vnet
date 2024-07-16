@@ -20,8 +20,8 @@ variable "label_order" {
 
 variable "managedby" {
   type        = string
-  default     = "opsstation"
-  description = "ManagedBy, eg 'opsstation'."
+  default     = "example"
+  description = "ManagedBy, eg 'sohanyadav'."
 }
 
 variable "enable" {
@@ -74,7 +74,7 @@ variable "flow_timeout_in_minutes" {
 
 variable "repository" {
   type        = string
-  default     = "https://github.com/opsstation/terraform-azure-virtual-network"
+  default     = "https://github.com/sohanyadav/terraform-azure-virtual-network"
   description = "Terraform current module repo"
 
   validation {
