@@ -97,7 +97,7 @@ Replace '[License Name]' and '[Your Name]' with the appropriate license and your
 +| <a name="input_label_order"></a> [label\_order](#input\_label\_order) | Label order, e.g. `name`,`application`. | `list(any)` | <pre>[<br>  "name",<br>  "environment"<br>]</pre> | no |
 +| <a name="input_location"></a> [location](#input\_location) | Location where resource should be created | `string` | `"West Europe"` | no |
 +| <a name="input_lock_level"></a> [lock\_level](#input\_lock\_level) | n/a | `string` | `"CanNotDelete"` | no |
-+| <a name="input_managedby"></a> [managedby](#input\_managedby) | ManageBY, eg, 'sohanyadav' | `string` | `"sohanyadav"` | no |
++| <a name="input_managedby"></a> [managedby](#input\_managedby) | ManagedBy, eg 'sohanyadav'. | `string` | `"example"` | no |
 +| <a name="input_name"></a> [name](#input\_name) | The Name which should be used for this Resource Group.Changing this forces a new Resource Group to be created. | `string` | `"resource-group"` | no |
 +| <a name="input_read"></a> [read](#input\_read) | Used when retrieving the Resource Group | `string` | `"90m"` | no |
 +| <a name="input_repository"></a> [repository](#input\_repository) | Terraform current module repo | `string` | `"https://github.com/sohanyadav/terraform-azure-resource-group"` | no |
